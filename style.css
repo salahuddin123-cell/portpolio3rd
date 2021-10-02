@@ -118,6 +118,7 @@ a:hover{
     grid-template-columns: repeat(auto-fit,minmax(410px,1fr));
     grid-gap: 1em;
     width: 80%;
+   padding-right: 10px;
    
 }
 li a{
