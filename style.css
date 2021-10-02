@@ -115,7 +115,7 @@ a:hover{
 }
 .wrap{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(410px,1fr));
     grid-gap: 1em;
     width: 80%;
    
