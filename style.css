@@ -1,6 +1,7 @@
-   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Work+Sans&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Work+Sans&display=swap');
  body{
-    color: white;
+  color: rgb(20, 22, 26);
     background-color: black;
     width: auto;
 
@@ -41,8 +42,20 @@ nav ul li{
     color:white;
     font-size: 17px;
     text-transform: uppercase;
+   
     
 }
+nav ul li a{
+    border: 1px solid #71A6D8;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+nav ul li a:hover{
+    background: black;
+    color: white;
+}
+
 .checkbtn{
     line-height: 80px;
     font-size: 30px;
@@ -115,11 +128,10 @@ a:hover{
 }
 .wrap{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(410px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
     grid-gap: 1em;
     width: 80%;
    padding-right: 10px;
-   
 }
 li a{
     text-decoration: none;
@@ -168,6 +180,14 @@ li a{
     
     
     
+}
+.list{
+    box-shadow:20px 20px 50px grey; 
+    padding: 5px;
+    border-radius: 10px;
+}
+#q{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .projects a{
     text-decoration: none;
@@ -241,7 +261,16 @@ footer{
     text-align: center;
     color: white;
 }
-#aboutme{
+#down{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+#down:hover{
+    background: white;
+}
+#aboutme,#down{
     animation: about-me 3s linear 2 alternate-reverse;
     /* animation-duration: 3s;
     animation-timing-function: linear;
@@ -249,6 +278,7 @@ footer{
     animation-direction: alternate-reverse; */
 
 }
+
 @keyframes about-me{
     0%{
         color: red;
@@ -280,6 +310,9 @@ footer{
      width: 80%;
        margin: auto;
        margin-bottom: 10px;
+   }
+   #down{
+       font-size: 15px;
    }
 }
 @media screen and (max-width:500px) {
