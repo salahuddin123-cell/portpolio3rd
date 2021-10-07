@@ -328,6 +328,12 @@ padding-top: 30px;
    #down{
        font-size: 15px;
    }
+       .bio{
+    padding: 30px 30px;
+    text-align: left;
+    height: auto;
+    width: 100%;
+}
 }
 @media screen and (max-width:500px) {
    .name{
@@ -337,12 +343,7 @@ padding-top: 30px;
    body{
        width: 100%;
    }
-   .bio{
-    padding: 30px 30px;
-    text-align: left;
-    height: auto;
-    width: 100%;
-}
+
    footer{
       width: auto;
 
