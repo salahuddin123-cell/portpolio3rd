@@ -152,7 +152,7 @@ li a{
 .bio{
     margin: auto;
    padding-left: 50px;
-   width: 60%;
+   width: 40vw;
 }
 .img{
     margin: auto;
@@ -171,9 +171,8 @@ li a{
 }
 .wrap p{
     font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   
 }
-
 .wrap{
     display: flex;
     justify-content: space-around;
@@ -330,11 +329,12 @@ padding-top: 30px;
        font-size: 15px;
    }
    .bio{
-      padding: 20px 20px;
+      padding: 10px 10px;
     text-align: left;
     height: auto;
     width: 100%;
 }
+
 }
 @media screen and (max-width:500px) {
    .name{
@@ -344,13 +344,13 @@ padding-top: 30px;
    body{
        width: 100%;
    }
-       .wrap{
-    width: 95%;
-}
 
    footer{
       width: auto;
 
    }
+   .wrap{
+    width: 100%;
+}
  
 }
